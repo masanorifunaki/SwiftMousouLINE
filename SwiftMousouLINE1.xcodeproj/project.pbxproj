@@ -7,14 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		206206DB214F7700006DBA8E /* SoundViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 206206DA214F7700006DBA8E /* SoundViewController.swift */; };
+		206206DE214F79AB006DBA8E /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 206206DD214F79AB006DBA8E /* AVFoundation.framework */; };
 		208895C9214D02F900C11979 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 208895C8214D02F900C11979 /* AppDelegate.swift */; };
 		208895CB214D02F900C11979 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 208895CA214D02F900C11979 /* ViewController.swift */; };
 		208895CE214D02F900C11979 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 208895CC214D02F900C11979 /* Main.storyboard */; };
 		208895D0214D02FB00C11979 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 208895CF214D02FB00C11979 /* Assets.xcassets */; };
 		208895D3214D02FB00C11979 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 208895D1214D02FB00C11979 /* LaunchScreen.storyboard */; };
+		208895E1214D034B00C11979 /* background.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 208895DA214D034A00C11979 /* background.jpg */; };
+		208895E2214D034B00C11979 /* call.png in Resources */ = {isa = PBXBuildFile; fileRef = 208895DB214D034A00C11979 /* call.png */; };
+		208895E3214D034B00C11979 /* callplay2.png in Resources */ = {isa = PBXBuildFile; fileRef = 208895DC214D034A00C11979 /* callplay2.png */; };
+		208895E4214D034B00C11979 /* callMusic.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 208895DD214D034A00C11979 /* callMusic.mp3 */; };
+		208895E5214D034B00C11979 /* child.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 208895DE214D034A00C11979 /* child.jpg */; };
+		208895E6214D034B00C11979 /* baby.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 208895DF214D034A00C11979 /* baby.mp3 */; };
+		208895E7214D034B00C11979 /* callplay1.png in Resources */ = {isa = PBXBuildFile; fileRef = 208895E0214D034A00C11979 /* callplay1.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		206206DA214F7700006DBA8E /* SoundViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundViewController.swift; sourceTree = "<group>"; };
+		206206DD214F79AB006DBA8E /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		208895C5214D02F900C11979 /* SwiftMousouLINE1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftMousouLINE1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		208895C8214D02F900C11979 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		208895CA214D02F900C11979 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +33,13 @@
 		208895CF214D02FB00C11979 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		208895D2214D02FB00C11979 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		208895D4214D02FB00C11979 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		208895DA214D034A00C11979 /* background.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = background.jpg; sourceTree = "<group>"; };
+		208895DB214D034A00C11979 /* call.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = call.png; sourceTree = "<group>"; };
+		208895DC214D034A00C11979 /* callplay2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = callplay2.png; sourceTree = "<group>"; };
+		208895DD214D034A00C11979 /* callMusic.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = callMusic.mp3; sourceTree = "<group>"; };
+		208895DE214D034A00C11979 /* child.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = child.jpg; sourceTree = "<group>"; };
+		208895DF214D034A00C11979 /* baby.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = baby.mp3; sourceTree = "<group>"; };
+		208895E0214D034A00C11979 /* callplay1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = callplay1.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +47,27 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				206206DE214F79AB006DBA8E /* AVFoundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		206206DC214F79AB006DBA8E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				206206DD214F79AB006DBA8E /* AVFoundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		208895BC214D02F900C11979 = {
 			isa = PBXGroup;
 			children = (
 				208895C7214D02F900C11979 /* SwiftMousouLINE1 */,
 				208895C6214D02F900C11979 /* Products */,
+				206206DC214F79AB006DBA8E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,8 +82,16 @@
 		208895C7214D02F900C11979 /* SwiftMousouLINE1 */ = {
 			isa = PBXGroup;
 			children = (
+				208895DF214D034A00C11979 /* baby.mp3 */,
+				208895DA214D034A00C11979 /* background.jpg */,
+				208895DB214D034A00C11979 /* call.png */,
+				208895DD214D034A00C11979 /* callMusic.mp3 */,
+				208895E0214D034A00C11979 /* callplay1.png */,
+				208895DC214D034A00C11979 /* callplay2.png */,
+				208895DE214D034A00C11979 /* child.jpg */,
 				208895C8214D02F900C11979 /* AppDelegate.swift */,
 				208895CA214D02F900C11979 /* ViewController.swift */,
+				206206DA214F7700006DBA8E /* SoundViewController.swift */,
 				208895CC214D02F900C11979 /* Main.storyboard */,
 				208895CF214D02FB00C11979 /* Assets.xcassets */,
 				208895D1214D02FB00C11979 /* LaunchScreen.storyboard */,
@@ -123,8 +159,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				208895D3214D02FB00C11979 /* LaunchScreen.storyboard in Resources */,
+				208895E2214D034B00C11979 /* call.png in Resources */,
+				208895E6214D034B00C11979 /* baby.mp3 in Resources */,
+				208895E1214D034B00C11979 /* background.jpg in Resources */,
 				208895D0214D02FB00C11979 /* Assets.xcassets in Resources */,
+				208895E5214D034B00C11979 /* child.jpg in Resources */,
+				208895E3214D034B00C11979 /* callplay2.png in Resources */,
+				208895E4214D034B00C11979 /* callMusic.mp3 in Resources */,
 				208895CE214D02F900C11979 /* Main.storyboard in Resources */,
+				208895E7214D034B00C11979 /* callplay1.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -136,6 +179,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				208895CB214D02F900C11979 /* ViewController.swift in Sources */,
+				206206DB214F7700006DBA8E /* SoundViewController.swift in Sources */,
 				208895C9214D02F900C11979 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
